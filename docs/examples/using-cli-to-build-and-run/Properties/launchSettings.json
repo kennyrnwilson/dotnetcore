@@ -1,0 +1,10 @@
+{
+    "profiles": {
+        "CommandLineApp": {
+            "commandName": "Project",
+            "environmentVariables": {
+                "EnvVar": "World"
+            }
+        }
+    }
+}
