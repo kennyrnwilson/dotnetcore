@@ -100,3 +100,21 @@ Now we can run the application with this profile as.
 ```
 dotnet run --launch-profile CommandLineApp HelloWorld
 ```
+
+## CLI Templates
+
+The CLI supports templates which can be usd to create a project based on the specified template. To see a list of available templates run the command
+
+```
+dotnet new --list
+```
+
+If we wanted to create a project from the xunit template we could run 
+
+```
+dotnet new xunit 
+```
+
+For more information on templates see [dotnet new](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new)
+
+
